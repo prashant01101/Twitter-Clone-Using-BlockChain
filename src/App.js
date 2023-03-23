@@ -4,7 +4,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { ethers } from "ethers"
 import DecentratwitterAbi from './contractsData/decentratwitter.json'
 import DecentratwitterAddress from './contractsData/decentratwitter-address.json'

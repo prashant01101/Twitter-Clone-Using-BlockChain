@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { ethers } from "ethers"
+// import { ethers } from "ethers"
 import { Row, Form, Button, Card, ListGroup, Col } from 'react-bootstrap'
 import { create as ipfsHttpClient } from 'ipfs-http-client'
 const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0')

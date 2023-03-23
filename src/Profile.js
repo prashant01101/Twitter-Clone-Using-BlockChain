@@ -106,7 +106,7 @@ const App = ({ contract }) => {
             </div>
             <div className="px-5 container">
                 <Row xs={1} md={2} lg={4} className="g-4 py-5">
-                    {nfts.map((nft, idx) => {
+                    {nfts.map((nft, idx) => (
                         if (nft.id === profile.id) return
                         return (
                             <Col key={idx} className="overflow-hidden">
@@ -125,7 +125,7 @@ const App = ({ contract }) => {
                                 </Card>
                             </Col>
                         )
-                    })}
+                    ))}
                 </Row>
             </div>
         </div>
